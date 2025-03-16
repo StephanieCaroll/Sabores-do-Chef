@@ -18,6 +18,7 @@ O site de receitas foi desenvolvido para ser leve, funcional e acessível. Ele p
 - **avalia.html**: Página relativa a avaliação.
 - **script.js**: Contém as interações e funcionalidades do site.
 - **SobreNos.html**: Página que contém informações sobre o site Sabores do Chef
+- **chef.sgv**: Foto utilizada para o cursor.
 
 ## 🚀 Tecnologias Utilizadas
 
