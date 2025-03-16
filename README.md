@@ -1,5 +1,5 @@
 # 🍴 Sabores do Chef
-
+<img src="sitedereceita/SaboresDoChef1.png" alt="fotodosite1" />
 Este repositório contém o código-fonte de um site de receitas simples, onde os usuários podem explorar pratos deliciosos, visualizar instruções passo a passo e filtrar receitas por categorias. O objetivo é oferecer uma experiência agradável e intuitiva para os amantes de culinária.
 
 ## 🌟 Sobre o Projeto
