@@ -1,0 +1,128 @@
+body{
+
+background-color: rgb(219, 215, 215);
+cursor: url('chef.svg') 16 16, auto;
+
+}
+.card {
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    cursor: pointer;
+    cursor: url('chef.svg') 16 16, auto;
+    
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+    cursor: url('chef.svg') 16 16, auto;
+}
+
+/* Container para o card expandido */
+#expanded-card-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1050;
+    cursor: url('chef.svg') 16 16, auto;
+}
+
+/* Card expandido */
+#expanded-card {
+    background: white;
+    width: 1500px;
+    max-width: 900px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    cursor: url('chef.svg') 16 16, auto;
+}
+
+/* Botão fechar */
+#close-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1060;
+    cursor: url('chef.svg') 16 16, auto;
+}
+
+#close-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1060;
+    background-color: white; /* Cor de fundo branca */
+    border: none; /* Remove borda padrão */
+    width: 40px; /* Largura do botão */
+    height: 40px; /* Altura do botão */
+    border-radius: 50%; /* Torna o botão redondo */
+    display: flex;
+    align-items: center; /* Centraliza o ícone no botão */
+    justify-content: center; /* Centraliza o ícone no botão */
+    cursor: url('chef.svg') 16 16, auto;
+}
+
+#close-button::before {
+    content: "✖"; /* Ícone de fechar */
+    font-size: 20px;
+    color: black; /* Cor do ícone */
+    cursor: url('chef.svg') 16 16, auto;
+}
+
+#carouselExampleDark {
+    max-width: 900px; /* Define uma largura máxima */
+    margin: 0 auto; /* Centraliza o carrossel */
+    cursor: url('chef.svg') 16 16, auto;
+}
+
+#carouselExampleDark img {
+    height: 300px; /* Define uma altura específica para as imagens */
+    object-fit: cover; /* Ajusta a imagem para caber no espaço definido */
+    cursor: url('chef.svg') 16 16, auto;
+}
+
+/* Cor branca para o texto do carrossel */
+.carousel-caption h5,
+.carousel-caption p {
+    color: white !important; /* Força o texto para branco */
+    cursor: url('chef.svg') 16 16, auto;
+}
+
+
+.card-details {
+    margin-top: 15px; /* Espaço entre o texto principal e os detalhes */
+    cursor: url('chef.svg') 16 16, auto;
+  }
+  
+  .card-details h6 {
+    margin-bottom: 10px;
+    cursor: url('chef.svg') 16 16, auto;
+  }
+  
+  .card-details p {
+    margin-bottom: 10px;
+    cursor: url('chef.svg') 16 16, auto;
+  }
+  
+  .btn-toolbar {
+    margin-top: 15px;
+    justify-content: space-between;
+    cursor: url('chef.svg') 16 16, auto;
+  }
+  
+  @media (max-width: 768px) {
+    .btn-group {
+      flex-wrap: wrap;
+      cursor: url('chef.svg') 16 16, auto;
+    }
+    .btn-group .btn {
+      margin-bottom: 5px;
+      cursor: url('chef.svg') 16 16, auto;
+    }
+  }
+  
