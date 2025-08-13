@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabores do Chef</title>
+ 
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+       <link rel="stylesheet" href="style.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap" rel="stylesheet">
+
+      <style>
+       body {
+        margin: 0;
+        padding: 0;
+        background-color: #f8f8f8;
+        color: #333;
+        cursor: url('chef.svg') 16 16, auto;
+    }
+
+    header {
+        background-color: #9c9c9c;
+        text-align: center;
+        padding: 20px;
+        font-family: "Playwrite HU", cursive;
+        cursor: url('chef.svg') 16 16, auto;
+        
+    }
+
+    header h1 {
+        margin: 0;
+        cursor: url('chef.svg') 16 16, auto;
+    }
+
+    main {
+        padding: 20px;
+        max-width: 800px;
+        margin: 0 auto;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        cursor: url('chef.svg') 16 16, auto;
+    }
+
+    section {
+        margin-bottom: 20px;
+        text-align: center;
+        cursor: url('chef.svg') 16 16, auto;
+    }
+
+    .comments-list {
+        margin-top: 20px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+        text-align: center;
+        cursor: url('chef.svg') 16 16, auto;
+    }
+
+    .comment {
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #eee;
+        text-align: center;
+        cursor: url('chef.svg') 16 16, auto;
+    }
+
+    form {
+        margin-top: 20px;
+        text-align: center;
+        cursor: url('chef.svg') 16 16, auto;
+        cursor: url('chef.svg') 16 16, auto;
+    }
+
+    input, textarea {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 14px;
+        cursor: url('chef.svg') 16 16, auto;
+    }
+
+    button {
+        padding: 10px 20px;
+        background-color: #6d6660;
+        color: #333;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        cursor: url('chef.svg') 16 16, auto;
+
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+        margin-top: 20px;
+    }
+</style>
+    </head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+        <div class="container-fluid">
+            <img src="https://cdn-icons-png.flaticon.com/512/6078/6078200.png" alt="PratoEFaca" width="40" height="40">
+          <a class="navbar-brand" href="index.html" style=" cursor: url('chef.svg') 16 16, auto;">Sabores do Chef</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="SobreNos.html" style=" cursor: url('chef.svg') 16 16, auto;">Sobre Nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contato" style=" cursor: url('chef.svg') 16 16, auto;">Contato</a>
+              </li>
+        
+              <li class="nav-item">
+                <a class="nav-link "href="avalia.html" style=" cursor: url('chef.svg') 16 16, auto;">Avaliações</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-dark" type="submit" style=" cursor: url('chef.svg') 16 16, auto;">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <header>
+        <h1>Bem-vindo ao Sabores do Chef</h1>
+        <p>O lugar onde a culinária se torna uma experiência especial!</p>
+    </header>
+    <main>
+        <section>
+            <h2>Sobre o Site</h2>
+            <p>O Sabores do Chef foi criado para inspirar amantes da culinária a explorar novos sabores e aprender receitas incríveis. Nossa plataforma reúne uma vasta coleção de receitas que vão desde pratos tradicionais brasileiros até delícias internacionais.</p>
+        </section>
+        <section>
+            <h2>Nossa Missão</h2>
+            <p>Promover a paixão pela culinária, tornando-a acessível e prática para todos. Queremos ajudar você a transformar simples ingredientes em pratos memoráveis, perfeitos para qualquer ocasião.</p>
+        </section>
+        <section>
+            <h2>Principais Funcionalidades</h2>
+            <ul>
+                <p><strong>Busca Fácil:</strong> Encontre receitas rápido.</p>
+                <p><strong>Categorias Variadas:</strong> Explore receitas de sobremesas, pratos principais, entradas e mais.</p>
+                <p><strong>Favoritos:</strong> Salve suas receitas preferidas para acessar sempre que quiser (em breve!).</p>
+                <p><strong>Dicas de Culinária:</strong> Aprenda truques para aprimorar suas habilidades na cozinha.</p>
+                <p><strong>Publicações:</strong>Compartilhe suas ideias! (em breve!)</p>
+            </ul>
+        </section>
+        <section>
+            <h2>Equipe</h2>
+            <p>Nosso time é formado por chefs experientes, nutricionistas e apaixonados por gastronomia, todos dedicados a trazer o melhor conteúdo culinário para você.</p>
+        </section>
+
+        <section id="Contato">
+            <h2>Entre em Contato</h2>
+            <p>Tem alguma dúvida, sugestão ou quer contribuir com receitas? Entre em contato conosco:</p>
+            <p>E-mail Geral: contato@saboresdochef.com</p>
+            <p>Suporte ao Cliente: suporte@saboresdochef.com</p>
+            <p>Parcerias: parcerias@saboresdochef.com</p>
+            <p>Telefone: +55 (81) 1234-5678</p>
+            <p>WhatsApp: +55 (81) 98765-4321</p>
+        </section>
+    </main>
+
+    <section>
+        <br>
+        <h2>Depoimentos</h2>
+        <p>Veja o que nossos usuários têm a dizer:</p>
+        <div class="comments-list" id="comments-list">
+            <div class="comment">
+                <p><strong>joaooliveira@gmail.com:</strong> "Encontrei a melhor receita de pão de queijo aqui. Sucesso garantido!"</p>
+            </div>
+            <div class="comment">
+                <p><strong>mariasilva@gmail.com:</strong> "Receitas Deliciosas é meu site de culinária favorito! As receitas são bem explicadas e fáceis de seguir."</p>
+            </div>
+        </div>
+        <form id="comment-form">
+            <input type="email" id="email" placeholder="Seu e-mail" required>
+            <textarea id="message" placeholder="Escreva seu comentário aqui..." required></textarea>
+            <button type="submit" style=" cursor: url('chef.svg') 16 16, auto;">Enviar Comentário</button>
+        </form>
+    </section>
+
+<script>
+    document.getElementById("comment-form").addEventListener("submit", function(event) {
+        event.preventDefault(); // Impede o envio do formulário
+
+        // Obtém os valores dos campos
+        const email = document.getElementById("email").value;
+        const message = document.getElementById("message").value;
+
+        // Cria um novo comentário
+        const commentList = document.getElementById("comments-list");
+        const newComment = document.createElement("div");
+        newComment.className = "comment";
+        newComment.innerHTML = `<p><strong>${email}:</strong> "${message}"</p>`;
+
+        // Adiciona o novo comentário à lista
+        commentList.appendChild(newComment);
+
+        // Limpa os campos do formulário
+        document.getElementById("email").value = "";
+        document.getElementById("message").value = "";
+    });
+</script>
+
+    <footer>
+        <p>&copy; 2025 Sabores do Chef. Todos os direitos reservados.</p>
+    </footer>
+    </body>
